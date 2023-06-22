@@ -22,16 +22,14 @@ Time: The Time library allows for scheduling the execution of the script at regu
 
 CSV: The CSV library is used to store the view count and timestamp data in a structured format. This enables users to access historical data for analysis and tracking purposes
 
-# Libraries Used
-To use the YouTube Watcher Application, follow these steps:
+Flask: Flask is a web framework for Python that allows you to build web applications. It provides tools and libraries to handle routing, request handling, template rendering, and more, making it easier to develop web-based applications.
 
-Clone the repository from GitHub to your local machine.
-Install the required dependencies by running pip install -r requirements.txt.
-Open the application script and provide your YouTube video URL and threshold value.
-Configure the email settings, including the SMTP server, sender email, and recipient email.
-Run the application script and let it automatically monitor the view count of the specified YouTube video.
-Receive email notifications whenever the view count exceeds the defined threshold.
-Access the CSV file to analyze the view count and timestamp data over time.
+Threading: The threading module is a built-in Python library that allows you to create and manage threads in your application. Threads are used to execute multiple tasks concurrently, allowing for improved performance and responsiveness in certain scenarios
+
+# How to use:
+To use the YouTube Watcher Application, follow these steps:
+1)Clone the project
+2)
 # Contribution
 Contributions to the YouTube Watcher Application are welcome! If you encounter any issues, have suggestions for improvements, or would like to add new features, please submit a pull request on GitHub. Your contributions will help enhance the functionality and usability of the application.
 
