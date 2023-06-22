@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YouTube Watcher</title>
+    <style>
+        /* CSS styles for the form */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e6f2ff; /* Change the background color to your preferred color */
+        }
+
+        h1 {
+            text-align: center;
+            color: #ff6600; /* Change the color to your preferred color */
+            font-size: 28px; /* Change the font size to your preferred value */
+            margin-bottom: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Change the font style to your preferred font */
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: beige; /* Add the background color to the form */
+            padding: 20px;
+            border-radius: 4px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        input[type="email"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="font-size: 28px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">YouTube Watcher</h1>
+    <form action="/submit" method="post">
+        <label for="youtube_url">YouTube URL:</label><br>
+        <input type="text" id="youtube_url" name="youtube_url"><br><br>
+        <label for="threshold">Viewership Count Threshold:</label><br>
+        <input type="number" id="threshold" name="threshold"><br><br>
+        <label for="email_ID">Email to receive notification:</label><br>
+        <input type="email" name="email_ID" id="email_ID"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

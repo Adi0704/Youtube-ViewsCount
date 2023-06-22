@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Thank You</title>
+    <style>
+        /* CSS styles for the thank you page */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: beige;
+            text-align: center;
+        }
+
+        .flashy {
+            font-size: 36px;
+            color: #ff6600;
+            margin-top: 100px;
+            animation: flashAnimation 1s ease-in-out infinite;
+        }
+
+        @keyframes flashAnimation {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .message {
+            font-size: 24px;
+            color: #333;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="flashy">Thank You</h1>
+    <div class="message">
+        <p>Thank you for the inputs!</p>
+        <p>You will receive an email when the viewership has crossed your set limit along with the timestamp.</p>
+    </div>
+</body>
+</html>
