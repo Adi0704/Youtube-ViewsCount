@@ -1,5 +1,7 @@
 # Youtube-Watcher
 The YouTube Watcher Application is a Python-based tool designed to monitor the view count of a YouTube video and notify the user via email when a specified threshold is crossed. This application is particularly useful for tracking the popularity of videos during events  for retrieving live data for analytical purposes.
+*Web_DA project has code for the website and web scraping
+*DA project is code just for webscarping with comments for understanding
 # Features
 -YouTube URL Input: Users can provide the URL of the YouTube video they wish to monitor through a user-friendly interface. This URL serves as the source for extracting view count data.
 
